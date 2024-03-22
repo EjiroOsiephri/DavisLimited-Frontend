@@ -1,3 +1,8 @@
+###Calculator Project README
+
+This calculator project is a simple web-based calculator implemented using HTML, CSS, and JavaScript. It provides basic arithmetic functionality such as addition, subtraction, multiplication, and division. Below is a brief explanation of the functionalities provided by the calculator:
+
+Features:
 Display Function (display(num))
 
 This function is responsible for displaying the numbers and operators pressed by the user onto the calculator screen.
@@ -17,6 +22,11 @@ Delete Function (DEL)
 
 This function removes the last character from the content displayed on the calculator screen.
 It slices the last character from the output.value and updates the screen accordingly.
+Toggle Functionality
+
+The "Toggle" button allows toggling a value between true and false.
+When the button is clicked, it changes the value from true to false and vice versa.
+Additionally, when the toggle value is false, it changes the class name of certain buttons to toggled-value.
 Usage:
 Adding Numbers:
 

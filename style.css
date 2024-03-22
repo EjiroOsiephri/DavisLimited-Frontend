@@ -51,6 +51,9 @@ button {
   background-color: #ff9f0c;
   box-shadow: none;
 }
+#toggle {
+  padding: 2rem;
+}
 .distinct-style {
   background-color: #ff9f0c;
   box-shadow: none;

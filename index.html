@@ -14,25 +14,50 @@
     <div class="container">
       <div class="calculator">
         <input type="text" placeholder="0" id="output-go" />
-        <button onclick="Clear()">CL</button>
-        <button onclick="DEL('del')">DEL</button>
-        <button onclick="display('9')">9</button>
-        <button onclick="display('8')" class="distinct-style">8</button>
-        <button onclick="display('7')">7</button>
-        <button onclick="display('6')">6</button>
-        <button onclick="display('5')">5</button>
-        <button onclick="display('4')" class="distinct-style">4</button>
-        <button onclick="display('3')">3</button>
-        <button onclick="display('2')">2</button>
-        <button onclick="display('1')">1</button>
-        <button onclick="display('0')" class="distinct-style">0</button>
-        <button onclick="display('.')">.</button>
-        <button onclick="display('*')">*</button>
-        <button onclick="display('+')">+</button>
-        <button onclick="display('-')" class="distinct-style">-</button>
-        <button onclick="display('/')">/</button>
-        <button onclick="display('%')">%</button>
-        <button onclick="calculate('=')" class="distinct-style">=</button>
+        <button onclick="Clear(); playButtonClickSound()">CL</button>
+        <button onclick="DEL('del'); playButtonClickSound()">DEL</button>
+        <button onclick="display('9'); playButtonClickSound()">9</button>
+        <button
+          onclick="display('8'); playButtonClickSound()"
+          class="distinct-style"
+        >
+          8
+        </button>
+        <button onclick="display('7'); playButtonClickSound()">7</button>
+        <button onclick="display('6'); playButtonClickSound()">6</button>
+        <button onclick="display('5'); playButtonClickSound()">5</button>
+        <button
+          onclick="display('4'); playButtonClickSound()"
+          class="distinct-style"
+        >
+          4
+        </button>
+        <button onclick="display('3'); playButtonClickSound()">3</button>
+        <button onclick="display('2'); playButtonClickSound()">2</button>
+        <button onclick="display('1'); playButtonClickSound()">1</button>
+        <button
+          onclick="display('0'); playButtonClickSound()"
+          class="distinct-style"
+        >
+          0
+        </button>
+        <button onclick="display('.'); playButtonClickSound()">.</button>
+        <button onclick="display('*'); playButtonClickSound()">*</button>
+        <button onclick="display('+'); playButtonClickSound()">+</button>
+        <button
+          onclick="display('-'); playButtonClickSound()"
+          class="distinct-style"
+        >
+          -
+        </button>
+        <button onclick="display('/'); playButtonClickSound()">/</button>
+        <button onclick="display('%'); playButtonClickSound()">%</button>
+        <button
+          onclick="calculate('='); playEqualSound()"
+          class="distinct-style"
+        >
+          =
+        </button>
       </div>
     </div>
     <script src="index.js"></script>

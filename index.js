@@ -1,3 +1,5 @@
+var output = document.getElementById("output-go");
+
 let toggleValue = true;
 const distinctStyleButtons = document.querySelectorAll(".distinct-style");
 
@@ -5,9 +7,18 @@ const originalClassNames = Array.from(distinctStyleButtons).map(
   (button) => button.className
 );
 
+function playButtonClickSound() {
+  var sound = new Audio("audio/e.wav");
+  sound.play();
+}
+
+function playEqualSound() {
+  var sound = new Audio("audio/m.wav");
+  sound.play();
+}
+
 document.getElementById("togglebtn").addEventListener("click", function () {
   toggleValue = !toggleValue;
-  console.log("Toggle value:", toggleValue);
 
   distinctStyleButtons.forEach((button, index) => {
     if (toggleValue === false) {
