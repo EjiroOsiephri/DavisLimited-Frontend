@@ -48,6 +48,9 @@ Deleting Characters:
 
 Click on the "Delete" button to remove the last character entered.
 The delete function (DEL) is triggered to delete the last character from the calculator screen.
+
+I also added a audion click functionalit when you click on the buttons
+
 Note:
 This calculator supports basic arithmetic operations.
 It may not handle complex expressions or scientific calculations.
