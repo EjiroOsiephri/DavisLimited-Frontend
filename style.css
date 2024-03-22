@@ -10,7 +10,7 @@
   justify-content: center;
 }
 .calculator {
-  padding: 15px;
+  padding: 25px;
   background-color: rgba(50, 30, 0, 0.8);
   display: grid;
   grid-template-columns: repeat(4, 68px);
@@ -37,12 +37,9 @@ input {
   margin-bottom: 30px;
 }
 button {
-  height: 48px;
-  width: 48px;
-  border-radius: 40px;
+  height: 60px;
+  width: 60px;
   padding: 10px;
-  box-shadow: inset -5px -5px 12px #ffffff,
-    inset 5px 5px 12px rgba(0, 0, 0, 0.16);
   border: none;
   font-size: 18px;
   background-color: rgba(153, 143, 128, 0.88);
@@ -51,4 +48,37 @@ button {
 }
 .equal {
   width: 120px;
+  background-color: #ff9f0c;
+  box-shadow: none;
+}
+.distinct-style {
+  background-color: #ff9f0c;
+  box-shadow: none;
+}
+button:hover {
+  background: rgba(50, 30, 0, 0.8);
+  opacity: 40%;
+}
+#togglebtn {
+  width: 60px;
+  padding: 0;
+  height: 50px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 900;
+  background-color: #ff9f0c;
+}
+
+.distinct-style:last-child {
+  width: 120px;
+  background-color: #ff9f0c;
+  box-shadow: none;
+}
+.toggled-value {
+  background-color: red;
+}
+.toggled-value:last-child {
+  width: 120px;
+  background-color: red;
+  box-shadow: none;
 }
